@@ -39,14 +39,19 @@ function updateModalTitle() {
   }
 }
 
+
 function init() {
   const button = createButton();
-  const modal = createModal();
+ const modal = createModal();
+
 
   document.body.appendChild(button);
   document.body.appendChild(modal);
+ 
 
   button.addEventListener('click', toggleModal);
+  
+  
 
   const closeBtn = modal.querySelector('.close');
   closeBtn.addEventListener('click', toggleModal);
@@ -56,7 +61,11 @@ function init() {
       toggleModal();
     }
   });
+  
 }
+
+
+
 
 if (document.readyState === 'loading') {
   document.addEventListener('DOMContentLoaded', init);

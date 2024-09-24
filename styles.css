@@ -45,3 +45,92 @@
 #myExtensionButton:hover {
   background-color: #45a049;
 }
+
+
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+padding: 40px;
+  width: 400px;
+  height: 200px;
+  
+  align-items: center;
+  background-color: white;
+}
+.app{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+.appLogoContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap:20px;
+}
+
+.appLogo {
+  height: 24px;
+  width: 130px;
+}
+.profile{
+  display: flex;
+  justify-content: space-between;
+  gap: 5px; 
+  align-items: center;
+}
+.profile-con{
+  background-color: rgb(235, 229, 229);
+  padding: 5px; 
+}
+.profile-head{
+   font-size: 16px;
+}
+.refresh{
+   display: flex;
+   align-items: center;
+   gap: 4px;
+}
+.menu-cont{
+   display: flex;
+   gap: 30px;
+   align-items: center;
+}
+.menu{
+   display: flex;
+   gap: 8px;
+   align-items: center;
+}
+.profile-btn{
+   background-color: #4A00FF;
+   color: white;
+   border-radius: 9px;
+   border: none;
+   width: 250px; ;
+   height: 31px;
+   gap: 20px;
+   position: relative;
+   left: 80px;
+   padding: 11px 20px 10px 20px;
+}
+.range{
+   display: flex;
+   justify-content: space-between;
+align-items: center;
+
+}
+.section-wise{  
+   width: 400px;
+   gap: 8px;
+   align-items: center;
+
+}
+
+.menu-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
